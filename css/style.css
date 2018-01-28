@@ -1,7 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Satisfy");
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@import url("https://fonts.googleapis.com/css?family=Sedgwick+Ave");
 
-/*font-family: 'Satisfy', cursive;*/
+/*font-family: 'Sedgwick Ave', cursive;*/
+
+body {
+  max-width: 1100px;
+  max-height: 500px;
+}
 
 .homeContainer {
   display: grid;
@@ -27,4 +32,76 @@
   border-radius: 5px;
   font-size: 24px;
   font-family: "Amatic SC", cursive;
+}
+
+.main {
+  display: none;
+}
+
+.mainContainer {
+  max-height: 500px;
+  display: grid;
+  grid-template-columns: repeat(11, [col-start] 1fr);
+  grid-template-rows: repeat(11, 1fr);
+}
+
+nav {
+  font-family: "Amatic SC", cursive;
+  font-size: 24px;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navHome {
+  /*grid-column: col-start 2 / span 1;
+  grid-row: 2;*/
+  margin-right: 20px;
+}
+
+.navAbout {
+  /*grid-column: col-start 4 / span 1;
+  grid-row: 2;*/
+  margin-right: 20px;
+}
+
+.navProjects {
+  /*grid-column: col-start 6 / span 1;
+  grid-row: 2;*/
+  margin-right: 20px;
+}
+
+.navResume {
+  /*grid-column: col-start 8 / span 1;
+  grid-row: 2;*/
+  margin-right: 20px;
+}
+
+.navContact {
+  /*grid-column: col-start 10 / span 1;
+  grid-row: 2;*/
+  margin-right: 20px;
+}
+
+h2 {
+  /*font-family: "Sedgwick Ave", cursive;*/
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  grid-column: col-start 2 / 3;
+  grid-row: row-start 3 / 4;
+}
+
+p.para1 {
+  grid-column: col-start 3 / span 6;
+  grid-row: col-row 4 / span 6;
+  z-index: 1;
+}
+
+.watercolours1 {
+  grid-column: col-start 2 / span 8;
+  grid-row: row-start 3 / span 8;
+  opacity: 0.5;
 }
