@@ -4,5 +4,6 @@ $(document).ready(function() {
   $(".enter").click(function() {
     $(".homeContainer").hide();
     $(".main").show();
+    $("nav").show();
   });
 });
