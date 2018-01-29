@@ -41,28 +41,45 @@
 }
 
 .portfolio {
-  grid-column: 2 / 6;
-  grid-row: 4 / 8;
-  max-width: 40vw;
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
   color: #060f81;
   font-family: "Kaushan Script", cursive;
-  font-size: 40px;
-  top: 5vh;
-  left: 10vw;
+  font-size: 60px;
+  transform: rotate(-25deg);
+  z-index: 1;
 }
 
 .homeNav {
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
-  width: 20vw;
-  height: 20vh;
+  grid-column: 3 / 6;
+  grid-row: 3 / 6;
   display: grid;
-  grid: subgrid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
 .home {
-  grid-column: auto;
-  grid-row: auto;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  width: 20vw;
+  height: 30vh;
+}
+
+.aboutNav {
+  grid-column: 4 / 7;
+  grid-row: 8 / 10;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  z-index: 1;
+}
+
+.about {
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+  width: 25vw;
+  height: 20vh;
+  border-radius: 5px;
 }
 
 /*about me page*/
@@ -97,4 +114,5 @@
   grid-column: 6 / 9;
   grid-row: 3 / 8;
   height: 80vh;
+  border-radius: 5px;
 }
