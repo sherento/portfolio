@@ -56,54 +56,59 @@ color: white;*/
 
 .projectContainer {
   display: grid;
-  grid-template-columns: 10% 40% 40% 10%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 30% 30% 30%;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .projectTitle {
   width: 35vw;
   height: auto;
-  grid-row: 1;
-  grid-column: 2;
   z-index: 1;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
 }
 
 .projects {
   margin: 0 auto;
+  width: 90vw;
 }
 
 .project0 {
   width: 15vw;
   height: auto;
-  border: 5px solid white;
+  border-radius: 3px;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
 
 .project1 {
   width: 25vw;
   height: auto;
-  border: 5px solid white;
+  border-radius: 3px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }
 
 .project2 {
   width: 25vw;
   height: auto;
-  border: 5px solid white;
+  border-radius: 3px;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
 }
 
 .project3 {
   width: 15vw;
   height: auto;
-  border: 5px solid white;
-}
-/*
-.project0 {
-  grid-row: 2;
-  grid-column: 2 / 3;
-  width: 20vw;
-  height: auto;
+  border-radius: 3px;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
 }
 
 .project0p {
+  display: none;
   grid-row: 2;
   grid-column: 3 / 4;
   justify-self: center;
@@ -112,31 +117,18 @@ color: white;*/
   font-family: "PT Sans Narrow", sans-serif;
 }
 
-.project1 {
-  grid-row: 3;
-  grid-column: 2 / 3;
-  width: 30vw;
-  height: auto;
-  justify-self: start;
-}
-
 .project1p {
+  display: none;
   grid-row: 3;
   grid-column: 3 / 4;
   align-self: center;
   color: #060f81;
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
-}
-
-.project2 {
-  grid-row: 4;
-  grid-column: 2 / 3;
-  width: 30vw;
-  height: auto;
 }
 
 .project2p {
+  display: none;
   grid-row: 4;
   grid-column: 3 / 4;
   align-self: center;
@@ -145,17 +137,17 @@ color: white;*/
   font-family: "PT Sans Narrow", sans-serif;
 }
 
-.project3 {
-  grid-row: 5;
-  grid-column: 2 / 3;
-  width: 20vw;
-  height: auto;
-}
-
 .project3p {
+  display: none;
   grid-row: 5;
   grid-column: 3 / 4;
   color: #060f81;
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
-}*/
+}
+
+.resumeContainer {
+}
+
+.resumeTitle {
+}
