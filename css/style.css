@@ -57,94 +57,119 @@ color: white;*/
 .projectContainer {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 30% 30% 30%;
-  width: 80vw;
-  margin: 0 auto 200px auto;
+  grid-template-rows: 20% 40% 40%;
+  grid-template-areas:
+    "a a a a"
+    "b b c c"
+    "b b c c"
+    "d d e e"
+    "d d e e";
+
+  width: 90vw;
+  margin: 0 auto 100px auto;
 }
 
 .projectTitle {
   width: 35vw;
   height: auto;
   z-index: 1;
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-  margin-top: -20vh;
+  grid-area: a;
+  align-content: center;
+  margin: 0 auto;
 }
 
-.projects {
+.square0 {
+  grid-area: b;
+  align-content: center;
   margin: 0 auto;
-  width: 90vw;
+  position: relative;
 }
 
 .project0 {
   width: 15vw;
   height: auto;
   border-radius: 3px;
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+  position: absolute;
+  left: 25%;
+  align-self: start;
+}
+
+.project0p {
+  text-align: center;
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 35vw;
+  align-self: end;
+}
+
+.square1 {
+  grid-area: c;
+  align-content: center;
+  margin: 0 auto;
+  position: relative;
 }
 
 .project1 {
   width: 25vw;
   height: auto;
   border-radius: 3px;
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
+  position: absolute;
+  left: 25%;
+}
+
+.project1p {
+  text-align: center;
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 35vw;
+}
+
+.square2 {
+  grid-area: d;
+  align-content: center;
+  margin: 0 auto;
+  position: relative;
 }
 
 .project2 {
   width: 25vw;
   height: auto;
   border-radius: 3px;
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
+  position: absolute;
+  left: 25%;
+}
+
+.project2p {
+  text-align: center;
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 35vw;
+}
+
+.square3 {
+  grid-area: e;
+  align-content: center;
+  margin: 0 auto;
+  position: relative;
 }
 
 .project3 {
   width: 15vw;
   height: auto;
   border-radius: 3px;
-  grid-column: 4 / 5;
-  grid-row: 2 / 3;
-}
-
-.project0p {
-  display: none;
-  grid-row: 2;
-  grid-column: 3 / 4;
-  justify-self: center;
-  color: #060f81;
-  font-size: 18px;
-  font-family: "PT Sans Narrow", sans-serif;
-}
-
-.project1p {
-  display: none;
-  grid-row: 3;
-  grid-column: 3 / 4;
-  align-self: center;
-  color: #060f81;
-  font-size: 18px;
-  font-family: "PT Sans Narrow", sans-serif;
-}
-
-.project2p {
-  display: none;
-  grid-row: 4;
-  grid-column: 3 / 4;
-  align-self: center;
-  color: #060f81;
-  font-size: 18px;
-  font-family: "PT Sans Narrow", sans-serif;
+  position: absolute;
+  left: 25%;
 }
 
 .project3p {
-  display: none;
-  grid-row: 5;
-  grid-column: 3 / 4;
+  text-align: center;
   color: #060f81;
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
+  width: 35vw;
 }
 
 .resumeContainer {
