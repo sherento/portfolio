@@ -1,4 +1,4 @@
-console.log(jQuery, $);
+// console.log(jQuery, $);
 
 // $(document).ready(function() {
 //   $(".enter").click(function() {

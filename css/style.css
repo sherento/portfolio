@@ -59,7 +59,7 @@ color: white;*/
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 30% 30% 30%;
   width: 80vw;
-  margin: 0 auto;
+  margin: 0 auto 200px auto;
 }
 
 .projectTitle {
@@ -68,6 +68,7 @@ color: white;*/
   z-index: 1;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  margin-top: -20vh;
 }
 
 .projects {
@@ -148,9 +149,77 @@ color: white;*/
 
 .resumeContainer {
   display: grid;
-  grid-template-columns: 45% 10% 45%;
+  grid-template-columns: 30% 30% 30%;
   grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  width: 90vw;
+  margin: 0 auto;
 }
 
-.resumeTitle {
+.work {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.workContainer {
+  grid-column: 1 / 4;
+  grid-row: 2 / 9;
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  margin: 0 auto;
+}
+
+.wdi {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 30vw;
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.pta {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  width: 30vw;
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: right;
+}
+
+.ra {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  width: 30vw;
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.arcbs {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  width: 30vw;
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: right;
+}
+
+.bal {
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+  width: 30vw;
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.line {
+  grid-column: 2 / 3;
+  grid-row: 1 / 6;
+  justify-self: center;
+  height: 150vh;
+  width: 2vw;
 }
