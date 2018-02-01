@@ -89,6 +89,8 @@ color: white;*/
   width: 15vw;
   height: auto;
   border-radius: 3px;
+  display: block;
+  margin: auto;
 }
 
 .project0p {
@@ -108,6 +110,8 @@ color: white;*/
   width: 25vw;
   height: auto;
   border-radius: 3px;
+  display: block;
+  margin: auto;
 }
 
 .project1p {
@@ -127,6 +131,8 @@ color: white;*/
   width: 25vw;
   height: auto;
   border-radius: 3px;
+  display: block;
+  margin: auto;
 }
 
 .project2p {
@@ -146,6 +152,8 @@ color: white;*/
   width: 10vw;
   height: auto;
   border-radius: 3px;
+  display: block;
+  margin: auto;
 }
 
 .project3p {
@@ -285,7 +293,13 @@ color: white;*/
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   z-index: 1;
-  width: 35vw;
+  width: 5vw;
+}
+
+.emailA {
+  color: #060f81;
+  font-size: 24px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 .linkedin {
@@ -299,7 +313,13 @@ color: white;*/
   grid-column: 1;
   grid-row: 1;
   z-index: 1;
-  width: 35vw;
+  width: 5vw;
+}
+
+.linkedA {
+  color: #060f81;
+  font-size: 24px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 .githubLink {
@@ -313,5 +333,11 @@ color: white;*/
   grid-column: 1;
   grid-row: 1;
   z-index: 1;
-  width: 35vw;
+  width: 5vw;
+}
+
+.githubA {
+  color: #060f81;
+  font-size: 24px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
