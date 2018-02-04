@@ -7,3 +7,7 @@
 //     $("nav").show();
 //   });
 // });
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
