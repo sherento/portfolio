@@ -79,10 +79,10 @@ a {
 }
 
 .intro {
-  width: 40vw;
+  width: 50vw;
   height: auto;
   position: absolute;
-  margin-left: 20vw;
+  margin-left: 15vw;
   margin-top: -10vh;
   margin-bottom: 0;
 }
@@ -207,7 +207,7 @@ a {
   }
 }
 
-.aboutContainer {
+#aboutContainer {
   width: 90vw;
   height: 120vh;
   margin: 0 auto;
@@ -241,16 +241,17 @@ a {
   margin-top: 50vh;
 }
 
-.projectsContainer {
+#projectsContainer {
   width: 90vw;
   position: relative;
   margin: 0 auto;
 }
 
 .projectHeader {
-  width: 30vw;
+  width: 25vw;
   height: auto;
   margin-left: 30vw;
+  margin-top: 15vh;
 }
 
 .project0Container,
@@ -304,4 +305,44 @@ a {
   width: 15vw;
   height: auto;
   margin-left: 14vw;
+}
+
+.project0p,
+.project1p,
+.project2p,
+.project3p {
+  margin: 55vh auto;
+  text-align: center;
+}
+
+#contactContainer {
+  width: 80vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contact {
+  width: 30vw;
+  margin-top: 15vh;
+  margin-left: 25vw;
+}
+
+.hello {
+  color: #060f81;
+  font-size: 28px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.email,
+.linked,
+.github {
+  width: 60vw;
+  text-align: center;
+  margin: 0 auto;
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-bottom: 1vh;
 }
