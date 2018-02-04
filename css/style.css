@@ -10,10 +10,14 @@
 /*color: #060f81;
 font-size: 18px;
 font-family: "PT Sans Narrow", sans-serif;*/
-/*
-body {
+
+/*body {
   max-width: 980px;
   max-height: 600px;
+}*/
+
+nav {
+  display: none;
 }
 
 ul {
@@ -33,7 +37,7 @@ li {
 a {
   text-decoration: none;
   color: inherit;
-}*/
+}
 
 .container {
   display: inline-block;
@@ -63,8 +67,8 @@ a {
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+  -webkit-transform: rotate(45deg) translate(-10px, -8px);
+  transform: rotate(45deg) translate(-10px, -8px);
 }
 
 .introContainer {
@@ -79,22 +83,25 @@ a {
   height: auto;
   position: absolute;
   margin-left: 20vw;
+  margin-top: -10vh;
 }
 
 .popup {
   position: fixed;
-  left: 50vw;
-  margin-left: 35px;
+  left: 55vw;
+  margin-left: 40vw;
   top: 50vh;
-  margin-top: -210px;
+  margin-top: -100vh;
   opacity: 0;
   transition: all 1s;
   -webkit-transition: all 1s;
 }
 
 .popup div {
-  width: 120px;
+  width: 15vw;
+  height: 5vh;
   font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 .popup div {
@@ -127,8 +134,9 @@ a {
 }
 
 .downArrow {
-  position: fixed;
+  position: absolute;
   margin-left: 40vw;
+  margin-top: 5vh;
   width: 5vw;
   height: auto;
 }
@@ -196,4 +204,25 @@ a {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
+}
+
+.aboutContainer {
+  width: 90vw;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.about {
+  width: 30vw;
+  height: auto;
+  position: absolute;
+  margin-left: 30vw;
+  margin-top: 0;
+}
+
+.paragraph {
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
