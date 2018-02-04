@@ -74,7 +74,7 @@ a {
 .introContainer {
   position: relative;
   width: 80vw;
-  height: 70vh;
+  height: 80vh;
   margin: 0 auto;
 }
 
@@ -209,7 +209,7 @@ a {
 
 .aboutContainer {
   width: 90vw;
-  height: 600px;
+  height: 120vh;
   margin: 0 auto;
   position: relative;
 }
@@ -239,4 +239,69 @@ a {
   display: inline-block;
   border-radius: 5px;
   margin-top: 50vh;
+}
+
+.projectsContainer {
+  width: 90vw;
+  position: relative;
+  margin: 0 auto;
+}
+
+.projectHeader {
+  width: 30vw;
+  height: auto;
+  margin-left: 30vw;
+}
+
+.project0Container,
+.project1Container,
+.project2Container,
+.project3Container {
+  position: relative;
+  display: inline-block;
+  width: 44vw;
+  height: 70vh;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #060f81;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.project0Container,
+.project3Container {
+  border: 3px solid #c6a530;
+  margin-bottom: 1vh;
+}
+
+.project1Container,
+.project2Container {
+  border: 3px solid #44d9e6;
+}
+
+.project0 {
+  position: absolute;
+  width: 20vw;
+  height: auto;
+  margin-left: 12vw;
+}
+
+.project1 {
+  position: absolute;
+  width: 30vw;
+  height: auto;
+  margin-left: 7vw;
+}
+
+.project2 {
+  position: absolute;
+  width: 30vw;
+  height: auto;
+  margin-left: 7vw;
+}
+
+.project3 {
+  position: absolute;
+  width: 15vw;
+  height: auto;
+  margin-left: 14vw;
 }
