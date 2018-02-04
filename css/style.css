@@ -74,7 +74,7 @@ a {
 .introContainer {
   position: relative;
   width: 80vw;
-  height: 60vh;
+  height: 70vh;
   margin: 0 auto;
 }
 
@@ -84,6 +84,7 @@ a {
   position: absolute;
   margin-left: 20vw;
   margin-top: -10vh;
+  margin-bottom: 0;
 }
 
 .popup {
@@ -129,7 +130,7 @@ a {
 
 .arrowContainer {
   width: 85vw;
-  height: 20vh;
+  height: 10vh;
   margin: 0 auto;
 }
 
@@ -208,21 +209,34 @@ a {
 
 .aboutContainer {
   width: 90vw;
-  height: 400px;
+  height: 600px;
   margin: 0 auto;
   position: relative;
 }
 
 .about {
-  width: 30vw;
+  width: 20vw;
   height: auto;
   position: absolute;
-  margin-left: 30vw;
-  margin-top: 0;
+  margin-left: 35vw;
 }
 
 .paragraph {
+  position: absolute;
   color: #060f81;
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
+  display: inline-block;
+  width: 60vw;
+  margin-left: 30vw;
+  margin-top: 50vh;
+}
+
+.profile {
+  position: absolute;
+  width: 25vw;
+  height: auto;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 50vh;
 }
