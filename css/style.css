@@ -346,10 +346,6 @@ a {
   margin-bottom: 1vh;
 }
 
-div {
-  border: 1px solid red;
-}
-
 .project0wrapper {
   width: 80vw;
   margin: 0 auto;
@@ -366,10 +362,15 @@ div {
   margin: 0 auto;
   width: 30vw;
   display: inline-block;
+  margin-left: 5vw;
 }
 
 .project0PopUpContainer {
   display: inline-block;
+  margin-left: 5vw;
+}
+
+.project0Description {
   color: #060f81;
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
@@ -380,7 +381,59 @@ div {
   display: inline-block;
 }
 
-a.play {
+.play,
+.githubPlay {
+  width: 5vw;
+  height: 5vw;
+}
+
+div {
+  border: 1px solid red;
+}
+
+.project1wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header1 {
+  margin: 0 auto;
+  width: 40vw;
+  margin-left: 20vw;
+}
+
+.project1a {
+  margin: 0 auto;
+  width: 35vw;
+  display: inline-block;
+  margin-left: 5vw;
+}
+
+.project1PopUpContainer {
+  display: inline-block;
+  margin-left: 5vw;
+}
+
+.project1Description {
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 30vw;
+}
+
+.p1url {
+  display: inline-block;
+}
+
+.heimat {
+  border-radius: 25% 0 25% 0;
+  width: 5vw;
+  height: 5vw;
+}
+
+.githubP1 {
+  display: inline-block;
   width: 5vw;
   height: 5vw;
 }
