@@ -437,3 +437,95 @@ div {
   width: 5vw;
   height: 5vw;
 }
+
+.project2wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header2 {
+  margin: 0 auto;
+  width: 40vw;
+  margin-left: 20vw;
+}
+
+.project2a {
+  margin: 0 auto;
+  width: 35vw;
+  display: inline-block;
+  margin-left: 5vw;
+}
+
+.project2PopUpContainer {
+  display: inline-block;
+  margin-left: 5vw;
+}
+
+.project2Description {
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 30vw;
+}
+
+.p2url {
+  display: inline-block;
+}
+
+.p2icon {
+  width: 5vw;
+  height: 5vw;
+}
+
+.githubP2 {
+  display: inline-block;
+  width: 5vw;
+  height: 5vw;
+}
+
+.project3wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header3 {
+  margin: 0 auto;
+  width: 30vw;
+  margin-left: 25vw;
+}
+
+.project3a {
+  margin: 0 auto;
+  width: 25vw;
+  display: inline-block;
+  margin-left: 5vw;
+}
+
+.project3PopUpContainer {
+  display: inline-block;
+  margin-left: 5vw;
+}
+
+.project3Description {
+  color: #060f81;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 30vw;
+}
+
+.p3url {
+  display: inline-block;
+}
+
+.p3icon {
+  width: 5vw;
+  height: 5vw;
+}
+
+.githubP3 {
+  display: inline-block;
+  width: 5vw;
+  height: 5vw;
+}
