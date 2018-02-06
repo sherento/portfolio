@@ -47,7 +47,7 @@ a {
 .bar1,
 .bar2,
 .bar3 {
-  width: 3vw;
+  width: 4vw;
   height: 1vh;
   background-color: #333;
   margin: 6px 0;
@@ -56,8 +56,8 @@ a {
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-9px, 7px);
+  transform: rotate(-45deg) translate(-9px, 7px);
 }
 
 /* Fade out the second bar */
@@ -74,17 +74,16 @@ a {
 .introContainer {
   position: relative;
   width: 80vw;
-  height: 80vh;
+  height: 70vh;
   margin: 0 auto;
 }
 
 .intro {
-  width: 50vw;
+  width: 35vw;
   height: auto;
   position: absolute;
-  margin-left: 15vw;
-  margin-top: -10vh;
-  margin-bottom: 0;
+  margin-left: 20vw;
+  margin-top: 5vh;
 }
 
 .popup {
@@ -345,4 +344,9 @@ a {
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
   margin-bottom: 1vh;
+}
+
+.project0PopUpContainer {
+  display: none;
+  z-index: 1;
 }
