@@ -16,7 +16,7 @@ font-family: "PT Sans Narrow", sans-serif;*/
   max-height: 600px;
 }*/
 
-nav {
+.mainNav {
   display: none;
 }
 
@@ -528,4 +528,7 @@ div {
   display: inline-block;
   width: 5vw;
   height: 5vw;
+}
+
+.projectNav {
 }

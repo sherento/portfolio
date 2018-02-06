@@ -2,5 +2,5 @@
 
 function myFunction(x) {
   x.classList.toggle("change");
-  $("nav").toggle();
+  $(".mainNav").toggle();
 }
