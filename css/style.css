@@ -365,26 +365,27 @@ a {
   margin-left: 5vw;
 }
 
-.project0PopUpContainer {
-  display: inline-block;
-  margin-left: 5vw;
-}
-
 .project0Description {
   color: #060f81;
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
-  width: 30vw;
+  width: 40vw;
+  display: inline-block;
+  position: absolute;
+  margin-left: 3vw;
 }
 
-.play {
+.p0Container {
   display: inline-block;
 }
 
-.play,
-.githubPlay {
-  width: 5vw;
-  height: 5vw;
+img.p0Container {
+  display: inline-block;
+}
+
+div.play,
+div.githubP0 {
+  display: inline-block;
 }
 
 div {
@@ -531,4 +532,13 @@ div {
 }
 
 .projectNav {
+  width: 90vw;
+  position: relative;
+}
+
+.projectNavUl {
+  list-style-type: none;
+  position: absolute;
+  width: 40vw;
+  margin-left: 30vw;
 }
