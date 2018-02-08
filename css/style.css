@@ -578,12 +578,12 @@ div.githubP0 {
   height: 5vw;
 }
 
-.projectNav {
+.projectNavP0 {
   width: 90vw;
   position: relative;
 }
 
-.projectNavUl {
+.projectNavUlP0 {
   list-style-type: none;
   position: absolute;
   width: 40vw;
@@ -615,4 +615,222 @@ div.githubP0 {
   position: absolute;
   width: 40vw;
   margin-left: 30vw;
+}
+
+.projectNavP3 {
+  width: 90vw;
+  position: relative;
+}
+
+.projectNavUlP3 {
+  list-style-type: none;
+  position: absolute;
+  width: 40vw;
+  margin-left: 30vw;
+}
+
+@media screen and (max-width: 640px) {
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 5vw;
+  }
+
+  .intro {
+    width: 45vw;
+    height: auto;
+  }
+
+  .popup {
+    position: fixed;
+    left: 58vw;
+    top: 40vh;
+  }
+
+  .popup div {
+    padding: 30px;
+  }
+
+  .introContainer {
+    height: 40vh;
+  }
+
+  #aboutContainer {
+    width: 95vw;
+    height: 100vh;
+  }
+
+  .about {
+    width: 35vw;
+    margin-left: 30vw;
+  }
+
+  .paragraph {
+    margin-top: 40vh;
+  }
+
+  .profile {
+    margin-top: 40vh;
+  }
+
+  #projectsContainer {
+    width: 90vw;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .projectHeader {
+    width: 35vw;
+    margin-top: 5vh;
+  }
+
+  .project0Container,
+  .project1Container,
+  .project2Container,
+  .project3Container {
+    position: relative;
+    width: 40vw;
+    height: 50vh;
+    left: 5vw;
+  }
+
+  .project0p,
+  .project1p,
+  .project2p,
+  .project3p {
+    margin: 30vh auto;
+    text-align: center;
+  }
+
+  img.p0Container {
+    width: 3vw;
+    height: auto;
+  }
+
+  div.play {
+    bottom: -1vh;
+    left: 35vw;
+  }
+
+  div.githubP0 {
+    bottom: -5vh;
+    left: 35vw;
+    top: 39vh;
+  }
+
+  .playP1 {
+    width: 70%;
+  }
+
+  .githubImageP0 {
+    width: 68%;
+  }
+
+  .projectNavUl {
+    top: 10vh;
+    width: 60vw;
+    left: -15vw;
+  }
+
+  .project1a {
+    top: 20vh;
+  }
+
+  .project1Description {
+    width: 45vw;
+    top: 20vh;
+  }
+
+  .heimat {
+    left: 10vw;
+    top: 45vh;
+  }
+
+  .githubImageP1 {
+    left: 20vw;
+    top: 44vh;
+    width: 9%;
+  }
+
+  .projectNavUlP1 {
+    width: 60vw;
+    margin-left: 15vw;
+    top: 10vh;
+  }
+
+  .project2wrapper {
+    width: 90vw;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .project2a {
+    top: 21vh;
+    left: 50vw;
+  }
+
+  .project2Description {
+    width: 45vw;
+  }
+
+  .p2icon {
+    width: 8vw;
+    height: 7vw;
+    left: 70vw;
+    top: 43vh;
+  }
+
+  .githubImageP2 {
+    width: 170%;
+    left: 55vw;
+    top: -14vh;
+  }
+
+  .gehms {
+    left: 15vw;
+  }
+
+  .projectNavUlP2 {
+    width: 60vw;
+    margin-left: 15vw;
+    top: -1vh;
+  }
+
+  .project3wrapper {
+    width: 90vw;
+  }
+
+  .project3a {
+    width: 30vw;
+    margin-left: 5vw;
+    position: absolute;
+    top: 15vh;
+    left: 50vh;
+  }
+
+  .project3Description {
+    position: absolute;
+    width: 45vw;
+  }
+
+  .p3icon {
+    position: absolute;
+    width: 16vw;
+    height: 14vw;
+    left: 10vw;
+    top: 55vh;
+  }
+
+  .githubImageP3 {
+    position: absolute;
+    left: 25vw;
+    top: 55vh;
+  }
+
+  .projectNavUlP3 {
+    position: absolute;
+    top: 55vh;
+    left: -15vw;
+    width: 60vw;
+  }
 }
