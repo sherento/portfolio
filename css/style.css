@@ -388,8 +388,16 @@ div.githubP0 {
   display: inline-block;
 }
 
-div {
-  border: 1px solid red;
+div.play {
+  position: absolute;
+  margin-left: 10vw;
+  bottom: 11vh;
+}
+
+div.githubP0 {
+  position: absolute;
+  margin-left: 20vw;
+  bottom: 10vh;
 }
 
 .project1wrapper {
@@ -409,6 +417,7 @@ div {
   width: 35vw;
   display: inline-block;
   margin-left: 5vw;
+  margin-top: 0;
 }
 
 .project1PopUpContainer {
@@ -440,7 +449,7 @@ div {
 }
 
 .project2wrapper {
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
   position: relative;
 }
@@ -452,10 +461,11 @@ div {
 }
 
 .project2a {
-  margin: 0 auto;
-  width: 35vw;
+  width: 40vw;
   display: inline-block;
-  margin-left: 5vw;
+  position: absolute;
+  left: 45vw;
+  bottom: 35vh;
 }
 
 .project2PopUpContainer {
@@ -467,22 +477,36 @@ div {
   color: #060f81;
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
-  width: 30vw;
+  width: 40vw;
 }
 
 .p2url {
   display: inline-block;
+  position: absolute;
 }
 
 .p2icon {
-  width: 5vw;
-  height: 5vw;
+  display: inline-block;
+  width: 10vw;
+  height: 9vw;
 }
 
 .githubP2 {
   display: inline-block;
   width: 5vw;
   height: 5vw;
+}
+
+.githubImage {
+  position: absolute;
+  left: 15vw;
+}
+
+.ping,
+.snaak,
+.roids {
+  width: 20vw;
+  display: inline-block;
 }
 
 .project3wrapper {
