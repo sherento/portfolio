@@ -630,6 +630,10 @@ div.githubP0 {
 }
 
 @media screen and (max-width: 640px) {
+  li {
+    margin: 0 4vh;
+  }
+
   .bar1,
   .bar2,
   .bar3 {
