@@ -636,6 +636,16 @@ div.githubP0 {
     width: 5vw;
   }
 
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-10px, 7px);
+    transform: rotate(-45deg) translate(-10px, 7px);
+  }
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-10px, -8px);
+    transform: rotate(45deg) translate(-10px, -8px);
+  }
+
   .intro {
     width: 45vw;
     height: auto;
