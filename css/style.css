@@ -643,12 +643,17 @@ div.githubP0 {
 
   .popup {
     position: fixed;
-    left: 58vw;
+    left: 50vw;
     top: 40vh;
   }
 
   .popup div {
-    padding: 30px;
+    padding: 45px;
+    padding-top: 0;
+  }
+
+  svg {
+    height: 20vh;
   }
 
   .introContainer {
@@ -682,6 +687,7 @@ div.githubP0 {
   .projectHeader {
     width: 35vw;
     margin-top: 5vh;
+    padding-top: 20vh;
   }
 
   .project0Container,
@@ -690,15 +696,20 @@ div.githubP0 {
   .project3Container {
     position: relative;
     width: 40vw;
-    height: 50vh;
+    height: 40vh;
     left: 5vw;
+  }
+
+  .project1Container,
+  .project3Container {
+    top: 3vh;
   }
 
   .project0p,
   .project1p,
   .project2p,
   .project3p {
-    margin: 30vh auto;
+    margin: 20vh auto 0 auto;
     text-align: center;
   }
 
