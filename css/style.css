@@ -727,60 +727,97 @@ div.githubP0 {
     text-align: center;
   }
 
+  .project0wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .project0a {
+    position: absolute;
+    width: 40vw;
+    margin-left: 20vw;
+  }
+
+  .project0Description {
+    width: 60vw;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 25vh;
+  }
+
   img.p0Container {
     width: 3vw;
     height: auto;
   }
 
   div.play {
-    bottom: -1vh;
-    left: 35vw;
-  }
-
-  div.githubP0 {
-    bottom: -5vh;
-    left: 35vw;
-    top: 39vh;
+    position: absolute;
+    top: 56vh;
+    left: 15vw;
   }
 
   .playP1 {
-    width: 70%;
+    width: 11vw;
+  }
+
+  div.githubP0 {
+    bottom: 0vh;
+    left: 25vw;
+    top: 55vh;
   }
 
   .githubImageP0 {
-    width: 68%;
+    width: 13vw;
   }
 
-  .projectNavUl {
-    top: 10vh;
-    width: 60vw;
-    left: -15vw;
+  .projectNavUlP0 {
+    top: 50vh;
+    width: 80vw;
+    margin-left: 0;
   }
 
   .project1a {
-    top: 20vh;
+    width: 50vw;
+    left: 20vw;
+    top: 15vh;
+  }
+
+  .project1PopUpContainer {
+    display: block;
   }
 
   .project1Description {
-    width: 45vw;
-    top: 20vh;
+    width: 70vw;
+    left: 10vh;
+    top: 35vh;
+  }
+
+  .p1url {
+    position: absolute;
+    top: -4vh;
+    left: -15vw;
   }
 
   .heimat {
-    left: 10vw;
-    top: 45vh;
+    width: 15vw;
+    height: auto;
+  }
+
+  .githubP1 {
+    position: absolute;
+    top: -5vh;
+    left: 3vw;
   }
 
   .githubImageP1 {
-    left: 20vw;
-    top: 44vh;
-    width: 9%;
+    width: 18vw;
   }
 
   .projectNavUlP1 {
-    width: 60vw;
-    margin-left: 15vw;
-    top: 10vh;
+    width: 80vw;
+    margin-left: 0vw;
+    top: 50vh;
   }
 
   .project2wrapper {
@@ -790,35 +827,63 @@ div.githubP0 {
   }
 
   .project2a {
-    top: 21vh;
-    left: 50vw;
+    display: block;
+    width: 50vw;
+    left: 20vw;
+    top: 12vh;
+  }
+
+  .project2PopUpContainer {
+    display: block;
   }
 
   .project2Description {
-    width: 45vw;
+    display: block;
+    width: 70vw;
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+  }
+
+  .p2url {
+    position: absolute;
+    top: 75vh;
+    left: 30vw;
   }
 
   .p2icon {
-    width: 8vw;
-    height: 7vw;
-    left: 70vw;
-    top: 43vh;
+    width: 10vw;
+    height: 9vw;
+  }
+
+  .githubP2 {
+    position: absolute;
+    top: 70vh;
+    left: 33vw;
   }
 
   .githubImageP2 {
-    width: 170%;
-    left: 55vw;
-    top: -14vh;
+    width: 10vw;
+    height: auto;
   }
 
   .gehms {
-    left: 15vw;
+    width: 100vw;
+    top: 31vh;
+    left: 0;
+  }
+
+  .ping,
+  .snaak,
+  .roids {
+    width: 28vw;
+    height: auto;
   }
 
   .projectNavUlP2 {
-    width: 60vw;
-    margin-left: 15vw;
-    top: -1vh;
+    width: 80vw;
+    margin-left: 0vw;
+    top: 52vh;
   }
 
   .project3wrapper {
@@ -826,36 +891,54 @@ div.githubP0 {
   }
 
   .project3a {
-    width: 30vw;
-    margin-left: 5vw;
+    display: block;
+    width: 40vw;
+    margin-left: 0vw;
     position: absolute;
-    top: 15vh;
-    left: 50vh;
+    top: 8vh;
+    left: 10vh;
   }
 
   .project3Description {
     position: absolute;
-    width: 45vw;
+    width: 80vw;
+    top: 45vh;
+  }
+
+  .p3url {
+    position: absolute;
+    top: 15vh;
+    left: 60vw;
+  }
+
+  .githubP3 {
+    position: absolute;
+    top: 28vh;
+    left: 61vw;
   }
 
   .p3icon {
     position: absolute;
-    width: 16vw;
-    height: 14vw;
-    left: 10vw;
-    top: 55vh;
+    width: 20vw;
+    height: auto;
   }
 
   .githubImageP3 {
     position: absolute;
-    left: 25vw;
-    top: 55vh;
+    width: 18vw;
+    height: auto;
   }
 
   .projectNavUlP3 {
     position: absolute;
-    top: 55vh;
-    left: -15vw;
-    width: 60vw;
+    top: 76vh;
+    margin-left: 0vw;
+    width: 80vw;
+  }
+
+  .mainUl {
+    width: 106vw;
+    padding-left: 0;
+    max-width: 110%;
   }
 }
