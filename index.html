@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="js/main.js"></script>
 </head>
+
 <body>
 
   <div class="container" onclick="myFunction(this)">
@@ -19,9 +21,15 @@
 
   <nav class="mainNav">
     <ul>
-      <li><a href="#aboutContainer">about me</a></li>
-      <li><a href="#projectsContainer">projects</a></li>
-      <li><a href="#contactContainer">contact me</a></li>
+      <li>
+        <a href="#aboutContainer">about me</a>
+      </li>
+      <li>
+        <a href="#projectsContainer">projects</a>
+      </li>
+      <li>
+        <a href="#contactContainer">contact me</a>
+      </li>
     </ul>
   </nav>
 
@@ -30,34 +38,37 @@
     <div class='popup'>
       <div>very nice to meet you!</div>
       <svg height="50" width="100">
-        <path d="M0 50 L40 0 L65 0 Z" />
-        Sorry, your browser does not support inline SVG.
+        <path d="M0 50 L40 0 L65 0 Z" /> Sorry, your browser does not support inline SVG.
       </svg>
     </div>
   </div>
 
   <div class="arrowContainer">
     <div class="downArrow bounce">
-      <img alt="bouncing arrow" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
+      <img alt="bouncing arrow" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4="
+      />
     </div>
- </div>
+  </div>
 
- <div id="aboutContainer">
-   <img class="about" src="image/about.png" alt="me me all about me">
-   <img class="profile" src="image/profile.jpg" alt="profile pic">
-   <p class="paragraph">
-     My name is Sheren and I am an aspiring front-end web developer.</br>
-     </br>
-     Having just finished studying full stack web development with GA, I am ready for my next new challenge and I am looking forward to the opportunity for further growth and development.</br>
-     </br>
-     I am thoroughly enjoying the fast-paced learning of both front-end and back-end applications and I can't wait to put my new skills to play!</br>
-     </br>
-     I was a scientist in my past life.
-     Valuable skills were learnt along the way, but something was missing and I was lacking that all important spark.</br>
-     </br>
-     So I embraced my curiousity, took the plunge and entered the exciting world of web development and I am super excited about creating magic.</br>
-   </p>
- </div>
+  <div id="aboutContainer">
+    <img class="about" src="image/about.png" alt="me me all about me">
+    <img class="profile" src="image/profile.jpg" alt="profile pic">
+    <p class="paragraph">
+      My name is Sheren and I am an aspiring front-end web developer.</br>
+      </br>
+      Having just started my new role as a graduate software engineer, I am eager to learn and challenge myself. I look forward
+      to the opportunites ahead for further growth and development.</br>
+      </br>
+      I am currently enrolled in the Thoughtworks LevelUp program to learn more real life experiences. These workshops range from
+      test driven development, pair programming and agile projects.</br>
+      </br>
+      I was a scientist in my past life. Valuable skills were learnt along the way, but something was missing and I was lacking
+      that all important spark.</br>
+      </br>
+      So I embraced my curiousity, took the plunge and entered the exciting world of web development and I am super excited about
+      creating magic.</br>
+    </p>
+  </div>
 
   <div id="projectsContainer">
     <div>
@@ -65,22 +76,30 @@
     </div>
     <div class="project0Container">
       <h2>Project 0</h2>
-      <a href="project0.html"><img class="project0" src="image/project0.png" alt="tic tac toe"></a>
+      <a href="project0.html">
+        <img class="project0" src="image/project0.png" alt="tic tac toe">
+      </a>
       <p class="project0p">tic tac toe</p>
     </div>
     <div class="project1Container">
       <h2>Project 1</h2>
-      <a href="project1.html"><img class="project1" src="image/project1.png" alt="social media platform named heimat"></a>
+      <a href="project1.html">
+        <img class="project1" src="image/project1.png" alt="social media platform named heimat">
+      </a>
       <p class="project1p">social media platform - heimat</p>
     </div>
     <div class="project2Container">
       <h2>Project 2</h2>
-      <a href="project2.html"><img class="project2" src="image/project2.png" alt="retro games - gehmns"></a>
+      <a href="project2.html">
+        <img class="project2" src="image/project2.png" alt="retro games - gehmns">
+      </a>
       <p class="project2p">retro "gehms"</p>
     </div>
     <div class="project3Container">
       <h2>Project 3</h2>
-      <a href="project3.html"><img class="project3" src="image/project3.png" alt="augmented reality"></a>
+      <a href="project3.html">
+        <img class="project3" src="image/project3.png" alt="augmented reality">
+      </a>
       <p class="project3p">augemnted reality with markers</p>
     </div>
   </div>
@@ -98,14 +117,23 @@
       <p>sheren.to@gmail.com</p>
     </div>
     <div class="linked">
-      <a href="https://www.linkedin.com/in/sheren-to" target="_blank"><img src="image/linked.png" alt="linked in"></a>
-      <p><a href="https://www.linkedin.com/in/sheren-to" target="_blank">https://www.linkedin.com/in/sheren-to</a></p>
+      <a href="https://www.linkedin.com/in/sheren-to" target="_blank">
+        <img src="image/linked.png" alt="linked in">
+      </a>
+      <p>
+        <a href="https://www.linkedin.com/in/sheren-to" target="_blank">https://www.linkedin.com/in/sheren-to</a>
+      </p>
     </div>
     <div class="github">
-      <a href="https://github.com/sherento" target="_blank"><img src="image/github.png" alt="github"></a>
-      <p><a href="https://github.com/sherento" target="_blank">https://github.com/sherento</a></p>
+      <a href="https://github.com/sherento" target="_blank">
+        <img src="image/github.png" alt="github">
+      </a>
+      <p>
+        <a href="https://github.com/sherento" target="_blank">https://github.com/sherento</a>
+      </p>
     </div>
   </div>
 
 </body>
+
 </html>
